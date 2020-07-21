@@ -1,1 +1,3 @@
 # image_classification
+The MNIST dataset is one of the most common datasets used for image classification and accessible from many different sources. I have used sklearn dataset to load this mnist data.
+The MNIST database contains 60,000 training images and 10,000 testing images taken from American Census Bureau employees and American high school students [4]. Therefore, in the second line, I have separated these two groups as train and test and also separated the labels and the images. x_train and x_test parts contain greyscale RGB codes (from 0 to 255) while y_train and y_test parts contains labels from 0 to 9 which represents which number they actually are. To visualize these numbers, we can get help from matplotlib.
